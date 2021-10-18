@@ -1,0 +1,19 @@
+.portfolio{
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+    // backdrop-filter: blur(150px);
+}
+.portfolio-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    .title__text{
+        margin-bottom: 30px;
+    }
+}
+.portfolio-imgs{
+    display:flex;
+    img{
+
+    }
+}
+
