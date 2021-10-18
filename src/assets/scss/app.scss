@@ -28,4 +28,12 @@ html {
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
 @import 'components/header';
 @import 'components/main';
+@import 'components/services';
+@import 'components/portfolio';
+@import 'components/clients';
+@import 'components/testimonials';
+@import 'components/blog';
+@import 'components/footer';
+@import 'components/form';
+
 
