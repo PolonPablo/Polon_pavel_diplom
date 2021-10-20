@@ -1,0 +1,6 @@
+mixin clients-row-item(args={})
+    .clients-row-col
+        .clients-row-background(class=args.mod_background)
+        .clients-row-item(class=args.mod_col)
+            img(src=args.img, alt="clients-row-img").clients-row-item__img
+            .clients-row-item__title=args.title

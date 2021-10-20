@@ -1,6 +1,22 @@
+
 .portfolio{
+margin-bottom: 68px;
+position: relative;
+}
+.portfolio-background{
     background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
-    // backdrop-filter: blur(150px);
+    filter: blur(70px);
+    z-index: 0;
+    // position:relative;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    
+}
+.portfolio-content{
+    // position:absolute;
 }
 .portfolio-header{
     display:flex;
@@ -9,11 +25,20 @@
     .title__text{
         margin-bottom: 30px;
     }
+
 }
 .portfolio-imgs{
     display:flex;
-    img{
-
-    }
+    justify-content: space-between;
 }
+.portfolio-nav-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+.arrow{
+    margin-left:10px;
+}
+
 
