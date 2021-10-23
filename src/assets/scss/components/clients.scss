@@ -26,45 +26,50 @@
 }
 .col-one{
     background: #FFF7FA;
-    border: 1px solid #FFE7F0;   
+    border: 1px solid #FFE7F0;
+    box-shadow: 0 20px 150px 0px #FFD7E9;
 }
 .col-two{
     background: #EDFFF5;
     border: 1px solid #CAFFE1;
+    box-shadow: 0 20px 150px 0px #BCFFDB;
 }
 .col-three{
     background: #F5FCFF;
     border: 1px solid #DDF5FF;
+    box-shadow: 0 20px 150px 0px #CEF2FF;
 }
 .col-four{
     background: #FFFBF2;
     border: 1px solid #FFEEC9;
+    box-shadow: 0 20px 150px 0px #FFE9BC;
 }
 .col-five{
     background: #F4FFED;
     border: 1px solid #DBFFC4;
+    box-shadow: 0 20px 150px 0px #D2FFB5;
 }
-.clients-row-background{
-    position: absolute;
-    top:0px;
-    left:0;
-    right: 0;
-    bottom: 0;
-    filter: blur(100px);
-    border-radius: 10px;
-}
-.background-one{
-    background: #FFD7E9;
-}
-.background-two{
-    background: #BCFFDB;
-}
-.background-three{
-    background: #CEF2FF;
-}
-.background-four{
-    background: #FFE9BC;
-}
-.background-five{
-    background: #D2FFB5;
-}
+// .clients-row-background{
+//     position: absolute;
+//     top:0px;
+//     left:0;
+//     right: 0;
+//     bottom: 0;
+//     filter: blur(100px);
+//     border-radius: 10px;
+// }
+// .background-one{
+//     background: #FFD7E9;
+// }
+// .background-two{
+//     background: #BCFFDB;
+// }
+// .background-three{
+//     background: #CEF2FF;
+// }
+// .background-four{
+//     background: #FFE9BC;
+// }
+// .background-five{
+//     background: #D2FFB5;
+// }
