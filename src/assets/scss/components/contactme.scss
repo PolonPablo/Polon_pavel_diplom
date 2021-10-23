@@ -1,0 +1,23 @@
+.contactme{
+    margin-top: 100px;
+    position: relative;
+}
+.contactme-background{
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
+    filter: blur(60px);
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+
+}
+.contact-text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    max-width: 512px;
+}
+.contactme-header{
+    display:flex;
+}
