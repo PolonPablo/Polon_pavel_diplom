@@ -1,0 +1,21 @@
+.footer{
+    margin:100px 0 50px;
+}
+.footer-text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #21232D;
+    margin-bottom: 30px;
+}
+.footer-imgs{
+    text-align: center;
+    img:nth-child(1){
+        margin-right: 40px;
+    }
+    img:nth-child(2){
+        margin-right: 40px;
+    }
+}
+
