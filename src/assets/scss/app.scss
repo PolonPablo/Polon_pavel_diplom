@@ -20,11 +20,16 @@ html {
     line-height: 32px;
     
 }
-
 .container{
     margin:0 auto;
     padding:0 15px;
     max-width: 1140px;
+}
+button{
+    border:0;
+}
+section{
+    margin-top:100px;
 }
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
 @import 'components/header';

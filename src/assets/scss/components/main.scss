@@ -6,6 +6,8 @@
     display: flex;
 }
 .main-text{
+    max-width: 358px;
+    
     h2{
         font-weight: 500;
         font-size: 24px;
@@ -30,20 +32,16 @@
         font-size: 24px;
         color: #FFFFFF;
         cursor: pointer;
+        max-width: 200px;
     }
-    form{max-width: 200px;}
 }
 .main-imgs{
     margin-top: -150px;
     position: relative;
+    max-width: 725px;
 }
 .main-img-bgr{
     max-width: 725px;
-    // left: 604px;
-    // top:60px;
-    position:relative;
-    top:0;
-    right:0;
 }
 .main-img{
     max-width: 535px;

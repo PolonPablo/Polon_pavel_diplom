@@ -1,16 +1,32 @@
 .testimonials{
     position: relative;
+    
+    &::after{
+        content: "";
+        background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
+        filter: blur(50px);
+        transform: rotate(-180deg);
+        position: absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+}}
+.testimonials-content{
+    position: relative;
+    z-index:1;
 }
-.testimonials-background{
-    background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
-    filter: blur(10px);
-    transform: rotate(-180deg);
-    position: absolute;
-    top:0;
-    left:0;
-    right: 0;
-    bottom: 0;
-}
+// .testimonials-background{
+//     background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
+//     filter: blur(10px);
+//     transform: rotate(-180deg);
+//     position: absolute;
+//     top:0;
+//     left:0;
+//     right: 0;
+//     bottom: 0;
+// }
 .bb{
     margin: 0 auto;
     display: block;
@@ -27,25 +43,25 @@
 .people_one{
     position: absolute;
     top:36%;
-    left: 13%;
+    left: 0;
 }
 .people_two{
     position: absolute;
     top:36%;
-    right:13%;
+    right:0%;
 }
 .people_three{
     position: absolute;
     top:74%;
-    left:22.3%;
+    left:12.6%;
 }
 .people_four{
     position: absolute;
     top:74%;
-    right:22.3%;
+    right:12.6%;
 }
 .people_five{
     position: absolute;
     top:58%;
-    right: 46.5%;
+    right: 45%;
 }

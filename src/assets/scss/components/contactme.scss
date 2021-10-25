@@ -1,16 +1,21 @@
 .contactme{
     margin-top: 100px;
     position: relative;
+    &::after{
+        content: "";
+        background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
+        filter: blur(70px);
+        position: absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
 }
-.contactme-background{
-    background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
-    filter: blur(50px);
-    position: absolute;
-    top:0;
-    left:0;
-    right: 0;
-    bottom: 0;
-
+.contactme-content{
+    position: relative;
+    z-index: 1;
 }
 .contact-text{
     font-weight: 500;
@@ -26,8 +31,16 @@
 .contactme-email{
     position: relative;
     top:50px;
+    a{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-decoration-line: underline;
+        color: #8643DC;
+    }
+
 }
-form{
+.contactme-form{
     display:flex;
     flex-direction: column;
     // margin-bottom:100px;
@@ -42,6 +55,7 @@ form{
         margin-bottom:45px;
         height: 45px;
         padding:0 0 17px 0;
+        background:transparent;
         &:focus {
             border: 3px solid #555;
         }

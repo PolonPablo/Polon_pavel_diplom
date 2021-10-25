@@ -1,17 +1,13 @@
-.contactme
+section.contactme
     .container
-        .contactme-background
         .contactme-content
-            .title.contactme-header
+            .contactme-header
                 .contactme-title
-                    h3.title__name Contact me
-                    span.title__line
-                    h2.title__text.contact-text Let me know if you want to talk about a potential collaboration. I'm available for freelance work.
+                    h3.title-name Contact me
+                    h2.title-text.contact-text Let me know if you want to talk about a potential collaboration. I'm available for freelance work.
                 .contactme-email
-                    a(href="https://it-shatle.by/").contactme-email__link
-                        span.contactme-email__text infoname@mail.com
-
-            form(action="#")
+                    a(href="mailto:infoname@mail.com").contactme-email__link infoname@mail.com
+            form.contactme-form(action="#")
                 input(type="text" name="form-text_1" placeholder="What's your name?")
                 input(type="email" name="form-email" placeholder="Your email")
                 input(type="text" name="form-text_3" placeholder="Tell me about your project")

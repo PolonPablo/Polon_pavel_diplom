@@ -1,17 +1,15 @@
 .blog{
-    margin-top: 100px;
 }
 .blog-content{
 }
 .blog-row{
     display:grid;
-    grid-template-columns: 165px 350px 255px 255px;
+    // grid-template-columns: 165px 350px 255px 255px;
+    grid-template-columns: 1.5fr 2.5fr 2fr 2fr;
     grid-column-gap: 30px;
-
 }
 .blog-title{
     margin-top: 0;
-
 }
 .news-one{
     position: relative;
