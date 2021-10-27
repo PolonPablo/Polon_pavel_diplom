@@ -85,3 +85,23 @@
         display:block;
     }
 }
+
+/* 768 - 1023 */ 
+@media screen  and (max-width: 1024px){
+    .news-two{
+        padding: 0 15px 10px;
+        max-height: 300px;
+    }
+    .news-three{
+        padding: 0 15px 10px;
+        max-height: 250px;
+    }
+    .blog-row{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 15px;}
+}
+/* 576 - 768  */ 
+@media screen  and (max-width: 768px){
+    
+}

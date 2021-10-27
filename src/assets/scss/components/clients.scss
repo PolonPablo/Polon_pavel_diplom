@@ -48,8 +48,25 @@
     border: 1px solid #DBFFC4;
     box-shadow: 0 20px 150px 0px #D2FFB5;
 }
-@media screen  and (max-width: 1025px){
+/* 768 - 1023 */ 
+@media screen  and (max-width: 1024px){
     .clients-row-item{
         padding: 12px 25px;
     }
+}
+/* 576 - 768 */
+@media screen  and (max-width: 768px){
+    .clients-row-col{
+        flex:1 0 33%;
+        min-width: 33%;
+        margin-bottom: 20px;
+    }
+    .clients-row-item{
+        padding: 10px 20px;
+        min-width: 170px;
+    }
+    .clients-row{
+        justify-content: space-around;
+    }
+    
 }

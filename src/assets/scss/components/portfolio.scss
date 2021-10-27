@@ -54,7 +54,7 @@
 .arrow{
     margin-left:10px;
 }
-
+/* 850 - 1023 */ 
 @media screen  and (max-width: 1024px){
     .portfolio-imgs{
         justify-content: space-around;
@@ -64,4 +64,23 @@
     }
 }
 }
-
+/* 769 - 849 */ 
+@media screen  and (max-width: 849px){
+    .portfolio-imgs{
+        img{
+        max-width: 360px;
+        max-height: 260px;
+        }
+    }
+}
+/* 575 - 768 */
+@media screen  and (max-width: 768px){
+    .portfolio-imgs{
+        img{
+        max-width: 300px;
+        max-height: 180px;
+        }}
+    .portfolio{
+        margin-top: 30px;
+    }
+}

@@ -104,3 +104,17 @@
         margin-right: 18px;
     }
 }
+/* 768 - 1023 */ 
+@media screen  and (max-width: 1024px){
+    .contact-text{
+    font-size: 28px;
+    line-height: 46px;
+    max-width: 400px;}
+}
+/* 576 - 768  */ 
+@media screen  and (max-width: 768px){
+    .contact-text{
+        font-size: 18px;
+        line-height: 38px;
+        max-width: 300px;}
+}

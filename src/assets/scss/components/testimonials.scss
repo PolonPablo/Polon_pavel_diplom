@@ -1,5 +1,6 @@
 .testimonials{
     position: relative;
+    padding-bottom: 353px;
     
     &::after{
         content: "";
@@ -38,30 +39,65 @@
     font-weight: 500;
     font-size: 16px;
     color: #636066;
-    padding-bottom: 353px;
 }
 .people_one{
     position: absolute;
-    top:36%;
-    left: 0;
+    top:264px;
+    left:0.2%;
 }
 .people_two{
     position: absolute;
-    top:36%;
-    right:0%;
+    top:264px;
+    right:0.2%;
 }
 .people_three{
     position: absolute;
-    top:74%;
+    top: 534px;
     left:12.6%;
 }
 .people_four{
     position: absolute;
-    top:74%;
+    top: 534px;
     right:12.6%;
 }
 .people_five{
     position: absolute;
-    top:58%;
+    top:419px;
     right: 45%;
+}
+/* 768 - 1023 */ 
+@media screen  and (max-width: 1024px){
+    .testimonials{
+        margin-top: 50px;
+    }
+}
+/* 576 - 768 */
+@media screen  and (max-width: 768px){
+    .testimonials-header{
+        h1{
+            margin-bottom: 30px;
+        }
+    }
+    .people_one{
+        top: 110%;
+        left: 0;
+    }
+    .people_two {
+        top: 110%;
+    }
+    .people_three {
+        top: 110%;
+        left:20%;
+    }
+    .people_four{
+        top: 110%;
+        right:20%;
+    }
+    .people_five{
+        top: 106%;
+        left:42%;
+    }
+    .testimonials{
+        padding-bottom: 120px;
+    }
 }

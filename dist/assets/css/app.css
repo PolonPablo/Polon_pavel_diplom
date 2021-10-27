@@ -342,12 +342,27 @@ section {
 .arrow {
   margin-left: 10px; }
 
+/* 850 - 1023 */
 @media screen and (max-width: 1024px) {
   .portfolio-imgs {
     justify-content: space-around; }
     .portfolio-imgs img {
       max-width: 450px;
       max-height: 330px; } }
+
+/* 769 - 849 */
+@media screen and (max-width: 849px) {
+  .portfolio-imgs img {
+    max-width: 360px;
+    max-height: 260px; } }
+
+/* 575 - 768 */
+@media screen and (max-width: 768px) {
+  .portfolio-imgs img {
+    max-width: 300px;
+    max-height: 180px; }
+  .portfolio {
+    margin-top: 30px; } }
 
 .clients_text {
   max-width: 140px; }
@@ -394,12 +409,26 @@ section {
   border: 1px solid #DBFFC4;
   box-shadow: 0 20px 150px 0px #D2FFB5; }
 
-@media screen and (max-width: 1025px) {
+/* 768 - 1023 */
+@media screen and (max-width: 1024px) {
   .clients-row-item {
     padding: 12px 25px; } }
 
+/* 576 - 768 */
+@media screen and (max-width: 768px) {
+  .clients-row-col {
+    flex: 1 0 33%;
+    min-width: 33%;
+    margin-bottom: 20px; }
+  .clients-row-item {
+    padding: 10px 20px;
+    min-width: 170px; }
+  .clients-row {
+    justify-content: space-around; } }
+
 .testimonials {
-  position: relative; }
+  position: relative;
+  padding-bottom: 353px; }
   .testimonials::after {
     content: "";
     background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
@@ -426,33 +455,58 @@ section {
   margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
-  color: #636066;
-  padding-bottom: 353px; }
+  color: #636066; }
 
 .people_one {
   position: absolute;
-  top: 36%;
-  left: 0; }
+  top: 264px;
+  left: 0.2%; }
 
 .people_two {
   position: absolute;
-  top: 36%;
-  right: 0%; }
+  top: 264px;
+  right: 0.2%; }
 
 .people_three {
   position: absolute;
-  top: 74%;
+  top: 534px;
   left: 12.6%; }
 
 .people_four {
   position: absolute;
-  top: 74%;
+  top: 534px;
   right: 12.6%; }
 
 .people_five {
   position: absolute;
-  top: 58%;
+  top: 419px;
   right: 45%; }
+
+/* 768 - 1023 */
+@media screen and (max-width: 1024px) {
+  .testimonials {
+    margin-top: 50px; } }
+
+/* 576 - 768 */
+@media screen and (max-width: 768px) {
+  .testimonials-header h1 {
+    margin-bottom: 30px; }
+  .people_one {
+    top: 110%;
+    left: 0; }
+  .people_two {
+    top: 110%; }
+  .people_three {
+    top: 110%;
+    left: 20%; }
+  .people_four {
+    top: 110%;
+    right: 20%; }
+  .people_five {
+    top: 106%;
+    left: 42%; }
+  .testimonials {
+    padding-bottom: 120px; } }
 
 .blog-row {
   display: grid;
@@ -524,6 +578,20 @@ section {
 .blog-col img {
   display: block; }
 
+/* 768 - 1023 */
+@media screen and (max-width: 1024px) {
+  .news-two {
+    padding: 0 15px 10px;
+    max-height: 300px; }
+  .news-three {
+    padding: 0 15px 10px;
+    max-height: 250px; }
+  .blog-row {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px; } }
+
+/* 576 - 768  */
 .footer {
   margin: 100px 0 50px; }
 
@@ -636,3 +704,17 @@ section {
   right: 0; }
   .form-imgs .clip {
     margin-right: 18px; }
+
+/* 768 - 1023 */
+@media screen and (max-width: 1024px) {
+  .contact-text {
+    font-size: 28px;
+    line-height: 46px;
+    max-width: 400px; } }
+
+/* 576 - 768  */
+@media screen and (max-width: 768px) {
+  .contact-text {
+    font-size: 18px;
+    line-height: 38px;
+    max-width: 300px; } }
