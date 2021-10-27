@@ -13,7 +13,7 @@
     display:flex;
     align-items: center;
     position: relative;
-    padding-top: 54px;
+    padding-top: 65px;
     
 }
 .logo{
@@ -47,13 +47,13 @@
     width:70px;
     height: 70px;
     cursor: pointer;
-    position:relative;
+    position:absolute;
     border:none;
     background: #FFFFFF;
     box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
     border-radius: 50%;
     padding: 20px;
-    left: 525px;
+    right:0;
 
 }
 .burger__line{
@@ -63,4 +63,43 @@
     background-color: black;
     margin: 7px auto;
 }
+/* 1024 - 1229 */ 
+@media screen and (max-width: 1140px) {
+    .burger{
+        right:50px;
+    }
+} 
+/* 576 - 767 */ 
+@media screen and (max-width: 767px){
+    .logo {
+        margin-right: 40px;
+}
+    .burger{
+        right:20px;
+}
+}
+/* 320 - 575 */ 
+@media screen and (max-width: 575px){
+    .nav_list{
+        visibility: hidden;
+        max-width: 10px;
+    }
+    .burger{
+        right:40px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+}
 
+// @media screen  and (max-width: 1025px){
+//     .burger{
+//         right:15px;
+//     }
+// }
+// @media screen  and (max-width: 769px){
+    
+//     .burger{
+//         right:10px;
+// }
+// }

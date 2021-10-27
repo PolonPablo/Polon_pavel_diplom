@@ -48,27 +48,8 @@
     border: 1px solid #DBFFC4;
     box-shadow: 0 20px 150px 0px #D2FFB5;
 }
-// .clients-row-background{
-//     position: absolute;
-//     top:0px;
-//     left:0;
-//     right: 0;
-//     bottom: 0;
-//     filter: blur(100px);
-//     border-radius: 10px;
-// }
-// .background-one{
-//     background: #FFD7E9;
-// }
-// .background-two{
-//     background: #BCFFDB;
-// }
-// .background-three{
-//     background: #CEF2FF;
-// }
-// .background-four{
-//     background: #FFE9BC;
-// }
-// .background-five{
-//     background: #D2FFB5;
-// }
+@media screen  and (max-width: 1025px){
+    .clients-row-item{
+        padding: 12px 25px;
+    }
+}

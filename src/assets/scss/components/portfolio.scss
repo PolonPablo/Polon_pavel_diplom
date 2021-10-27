@@ -55,4 +55,13 @@
     margin-left:10px;
 }
 
+@media screen  and (max-width: 1024px){
+    .portfolio-imgs{
+        justify-content: space-around;
+    img{
+        max-width: 450px;
+        max-height: 330px;
+    }
+}
+}
 

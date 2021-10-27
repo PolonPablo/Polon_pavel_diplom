@@ -11,11 +11,11 @@
 }
 .footer-imgs{
     text-align: center;
-    img:nth-child(1){
+    a{
+        text-decoration: none;
         margin-right: 40px;
-    }
-    img:nth-child(2){
-        margin-right: 40px;
+        &:nth-child(3){
+            margin-right: 0px;
+        }
     }
 }
-

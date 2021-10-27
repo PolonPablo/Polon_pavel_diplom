@@ -52,3 +52,33 @@
     line-height: 32px;
     color: #47444E
 }
+/* 768 - 1023 */ 
+@media screen and (max-width: 1023px){
+    .services{
+        margin-top:500px;
+    }
+    .services-row{
+        justify-content: space-around;
+    }
+    .services-row-col{
+        flex:1 0 350px;
+        max-width: 350px;
+
+        &:nth-child(3){
+            // margin-left:200px;
+        }
+    }
+}
+/* 576 - 767 */ 
+@media screen and (max-width: 767px){
+    .services{
+        margin-top:380px;
+    }
+    .services-row{
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .services-row-col{
+        flex:1 0 220px;
+}
+}

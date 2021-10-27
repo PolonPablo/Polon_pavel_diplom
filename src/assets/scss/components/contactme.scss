@@ -51,13 +51,19 @@
         font-weight: normal;
         font-size: 20px;
         line-height: 26px;
-        color: rgba(168,160,176,0.5);
+        color: #000;
         margin-bottom:45px;
         height: 45px;
         padding:0 0 17px 0;
         background:transparent;
         &:focus {
             border: 3px solid #555;
+        }
+        &::placeholder{
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 26px;
+            color: #A8A0B0;
         }
     }
     .form-btn{
