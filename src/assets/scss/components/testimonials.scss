@@ -14,7 +14,7 @@
         bottom: 0;
         z-index: 0;
 }}
-.testimonials-content{
+.testimonials__content{
     position: relative;
     z-index:1;
 }
@@ -73,7 +73,7 @@
 }
 /* 576 - 768 */
 @media screen  and (max-width: 768px){
-    .testimonials-header{
+    .testimonials__header{
         h1{
             margin-bottom: 30px;
         }

@@ -1,14 +1,14 @@
 .blog{
 }
-.blog-content{
+.blog__content{
 }
-.blog-row{
+.blog__row{
     display:grid;
     // grid-template-columns: 165px 350px 255px 255px;
     grid-template-columns: 1.5fr 2.5fr 2fr 2fr;
     grid-column-gap: 30px;
 }
-.blog-title{
+.blog__title{
     margin-top: 0;
 }
 .news-one{
@@ -80,7 +80,7 @@
             color: #FFFFFF;
         }
 }
-.blog-col{
+.blog__col{
     img{
         display:block;
     }
@@ -96,7 +96,7 @@
         padding: 0 15px 10px;
         max-height: 250px;
     }
-    .blog-row{
+    .blog__row{
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
         grid-row-gap: 15px;}

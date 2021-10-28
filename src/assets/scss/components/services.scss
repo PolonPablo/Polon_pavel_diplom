@@ -24,30 +24,30 @@
         margin-bottom: 15px;
     }
 }
-.services-row{
+.services__row{
     display: flex;
     flex-wrap: wrap;
     margin:0 -15px;
 }
-.services-row-col{
+.services__col{
     padding:0 15px;
     flex:1 0 33.33%;
 }
-.services-row-item{
+.services__item{
     display: flex;
     flex-wrap:wrap;
     align-items: center
 }
-.services-row-item__img{
+.services__item-img{
     margin-right: 20px;
 }
 
-.services-row-item__title{
+.services__item-title{
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
 }
-.services-row-item__description{
+.services__item-description{
     font-size: 16px;
     line-height: 32px;
     color: #47444E
@@ -57,10 +57,10 @@
     .services{
         margin-top:500px;
     }
-    .services-row{
+    .services__row{
         justify-content: space-around;
     }
-    .services-row-col{
+    .services__col{
         flex:1 0 350px;
         max-width: 350px;
 
@@ -74,11 +74,11 @@
     .services{
         margin-top:380px;
     }
-    .services-row{
+    .services__row{
         flex-direction: column;
         align-content: space-around;
     }
-    .services-row-col{
+    .services__col{
         flex:1 0 220px;
 }
 }

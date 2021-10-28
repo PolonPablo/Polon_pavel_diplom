@@ -13,22 +13,22 @@
         z-index: 0;
     }
 }
-.contactme-content{
+.contactme__content{
     position: relative;
     z-index: 1;
 }
-.contact-text{
+.contactme__title-text{
     font-weight: 500;
     font-size: 36px;
     line-height: 52px;
     max-width: 515px;
     margin-top:5px;
 }
-.contactme-header{
+.contactme__header{
     display:flex;
     justify-content: space-between;
 }
-.contactme-email{
+.contactme__email{
     position: relative;
     top:50px;
     a{
@@ -40,7 +40,7 @@
     }
 
 }
-.contactme-form{
+.contactme__form{
     display:flex;
     flex-direction: column;
     // margin-bottom:100px;
@@ -106,14 +106,14 @@
 }
 /* 768 - 1023 */ 
 @media screen  and (max-width: 1024px){
-    .contact-text{
+    .contactme__title-text{
     font-size: 28px;
     line-height: 46px;
     max-width: 400px;}
 }
 /* 576 - 768  */ 
 @media screen  and (max-width: 768px){
-    .contact-text{
+    .contactme__title-text{
         font-size: 18px;
         line-height: 38px;
         max-width: 300px;}
