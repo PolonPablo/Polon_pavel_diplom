@@ -46,7 +46,7 @@
     // margin-bottom:100px;
 
     input{
-        border:none;
+        border:3px solid rgba(85, 85, 85, 0);
         border-bottom: 1px solid #A8A0B0;
         font-weight: normal;
         font-size: 20px;
@@ -77,6 +77,12 @@
         text-align: center;
         color: #FFFFFF;
         cursor: pointer;
+        &:hover{
+            color:#000;
+        }
+        &:focus{
+            box-shadow: 0 0 0 4px #cbd6ee;
+        }
     }
 }
 .button-file{
@@ -94,12 +100,14 @@
     visibility: hidden;
     height: 0;
     width: 0;
+    
 }
 
 .form-imgs{
     position: absolute;
     top:0;
     right:0;
+    cursor: pointer;
     .clip{
         margin-right: 18px;
     }

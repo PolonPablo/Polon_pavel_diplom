@@ -37,6 +37,12 @@
         color: #FFFFFF;
         cursor: pointer;
         max-width: 200px;
+        &:hover{
+            color:#000;
+        }
+        &:focus{
+            box-shadow: 0 0 0 4px #cbd6ee;
+        }
     }
 }
 .main__imgs{
@@ -46,6 +52,8 @@
 }
 .main__imgs-bgr{
     max-width: 725px;
+    position: relative;
+    z-index: -1;
 }
 .main__imgs-adam{
     display: block;
