@@ -203,7 +203,7 @@ section {
   .main__img-sqr {
     top: 10px;
     right: 30px; }
-  .main-img-bgr {
+  .main__imgs-bgr {
     visibility: hidden;
     max-width: 10px; } }
 
