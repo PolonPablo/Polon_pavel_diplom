@@ -19,10 +19,26 @@
 }
 .logo{
     margin-right: 100px;
-    img{
+    .logo-img{
         display: block;
     }
-}
+    }
+    .logo-img:hover{
+        animation: rotate 2s linear infinite; 
+    }
+    @keyframes rotate{
+        from{
+            transform:rotate(0);
+        }
+        50%{
+            transform:rotate(180deg);
+        }
+        to{
+            transform:rotate(360deg);
+        }
+    }
+    
+    
 .nav_list{
     display:flex;
     padding: 0;
